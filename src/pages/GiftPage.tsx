@@ -3,9 +3,9 @@ import api from '../api/axios';
 
 // Songkran 2026 unlock dates — must match backend
 const UNLOCK_DATES: Record<number, string> = {
-  1: '2026-04-14',
-  2: '2026-04-15',
-  3: '2026-04-16',
+  1: '2026-04-15',
+  2: '2026-04-16',
+  3: '2026-04-17',
 };
 
 interface DayStatus {
