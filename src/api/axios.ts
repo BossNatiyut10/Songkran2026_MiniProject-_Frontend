@@ -1,7 +1,8 @@
 import axios from 'axios';
 
+const baseURL = import.meta.env.VITE_API_URL || '/api';
 const api = axios.create({
-  baseURL: '/api', // proxied to http://localhost:5000 via vite.config.ts
+  baseURL,
 });
 
 // Attach JWT token to every request automatically
